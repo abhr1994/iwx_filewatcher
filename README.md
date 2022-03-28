@@ -1,5 +1,5 @@
 # iwx_filewatcher
-This repo consists of code that implement filewatcher process for Infoworks File Based Ingestion Process
+This repo consists of code that implements filewatcher process for Infoworks File Based Ingestion Process
 
 # Architecture and Flow Chart
 

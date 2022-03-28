@@ -4,7 +4,7 @@ import uuid
 import redis
 
 
-def acquire_lock(conn, lock_name, acquire_timeout=10, lock_timeout=300):
+def acquire_lock(conn, lock_name, acquire_timeout=10, lock_timeout=1200):
     identifier = str(uuid.uuid4())
     end = time.time() + acquire_timeout
     while time.time() < end:

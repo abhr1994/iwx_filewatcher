@@ -1,5 +1,9 @@
 # iwx_filewatcher
-This repo consists of code that implement filewatcher process for Infoworks File Based Ingestion Process
+This repo consists of code that implements filewatcher process for Infoworks File Based Ingestion Process.
+<br>
+Even if multiple files land at the same time in the bucket for single table, the locking mechanism implemented makes sure that 
+only 1 File Ingestion Process/Workflow triggers for each table.
+
 
 # Architecture and Flow Chart
 
